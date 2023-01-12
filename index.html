@@ -4,13 +4,19 @@
 <!-- 这是便于使用xml查看器\编辑器识别本文件的标签 -->
 	<head>
 	<!-- 这是用来描述本网站的框架 -->
-		<meta name="baidu-site-verification" content="XYJICMSo19" />
-		<!-- 这是百度的验证码 -->
 		<link rel="shortcut icon" href="./2.png"/>
 		<!-- 这是标签页中网站的图像 -->
 		<title>清遥小作文</title>
-		<script src="./uaredirect.js" type="text/javascript"></script>
-		<script type="text/javascript">uaredirect("./mobile/index.html","./mobile/index.html");</script>
+		<script type="text/javascript">
+		 function browserRedirect() {
+  var sUserAgent = navigator.userAgent.toLowerCase();
+  if (/ipad|iphone|midp|rv:1.2.3.4|ucweb|android|windows ce|windows mobile/.test(sUserAgent)) {
+  //跳转移动端页面
+  window.location.href="./mobile/index.html" rel="external nofollow" rel="external nofollow" ;
+  }
+ }
+    browserRedirect(); 
+</script>
 		<!-- 这是标签页中网站的名称 -->
 		<meta name="keywords" content="ENTs, ENTssoftware, ents software, ENTSSOFTWARE官方网站, ENTs Software官方网站, ENTSSOFTWARE官网, ENTs Software官网"/>
 		<!-- 这是搜索引擎中网站的关键字 -->
