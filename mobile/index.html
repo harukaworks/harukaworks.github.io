@@ -52,54 +52,16 @@
 			/* 定义css"info3"用本结构填满整个网页的宽的40%，文本位置向页面的左边对齐，页面距网页左侧0px */
 			.leftl{position:fixed;left:10px;text-align:left;width:auto;background:#BBBBBB;float:left;}
 			/* 定义css"leftl"的位置不可移动，页面距网页左侧10px，文本位置向页面的左边对齐，用本结构自动填充，背景颜色为#BBBBBB，的位置向页面的右面对齐且可以与另一元素在同一行显示 */
-			body{background:url(http://api.btstu.cn/sjbz/?lx=dongman);background-repeat:no-repeat;height:100%;width:100%;z-index:-10;background-size:cover;-webkit-background-size:cover;-0-background-size:cover;background-position:center 0;}
+			body{background:url(./files/res/1.jpg);background-repeat:no-repeat;height:100%;z-index:-10;background-size:cover;-webkit-background-size:cover;-0-background-size:cover;background-position:center 0;}
+			p{font-size: 1.5em}
+			b{font-size: 2em}
+			a{font-size: 2em}
 		</style>
 		<!-- 结束定义css -->
 	</head>
 	<!-- 关闭框架 -->
-	<body>
+	<body bgcolor="ee0000">
 	<!-- 这是网站的内容，bgcolor 用来更改全局页面颜色 -->
-	<script>
-	var browser = {
-
-versions: function () {
-
-var u = navigator.userAgent, app = navigator.appVersion;
-
-return {
-
-trident: u.indexOf(‘Trident’) > -1,
-
-presto: u.indexOf(‘Presto’) > -1,
-
-webKit: u.indexOf(‘AppleWebKit’) > -1,
-
-gecko: u.indexOf(‘Gecko’) > -1 && u.indexOf(‘KHTML’) == -1,
-
-mobile: !!u.match(/AppleWebKit.*Mobile.*/) || !!u.match(/AppleWebKit/),
-
-ios: !!u.match(/i[^;]+;( U;)? CPU.+Mac OS X/),
-
-android: u.indexOf(‘Android’) > -1 || u.indexOf(‘Linux’) > -1,
-
-iPhone: u.indexOf(‘iPhone’) > -1 || (u.indexOf(‘Mac’) > -1 && u.indexOf
-
-(‘Macintosh’) < 0),
-
-iPad: u.indexOf(‘iPad’) > -1,
-
-webApp: u.indexOf(‘Safari’) == -1
-
-};} (),language: (navigator.browserLanguage || navigator.language).toLowerCase()}
-
-if(!browser.versions.iPad){
-
-if (browser.versions.android || browser.versions.iPhone) {
-
-self.location = "./mobile/index.html";
-
-}}
-	</script>
 		<div class="top"style="opacity: 0.7">
 		<!-- 引入css -->
 			<header>
@@ -117,7 +79,7 @@ self.location = "./mobile/index.html";
 		<br/>
 		<br/>
 		<br/>
-		<div style="background-color:#FFFFFF;float:left;width:31%;margin-left:1%;opacity: 0.7"bgcolor="#FFFFFF">
+		<div style="background-color:#FFFFFF;position:relative;left:5%;width:90%;;opacity: 0.7"bgcolor="#FFFFFF">
 			<br/>
 			<div style="text-align:center">
 				<b>小文</b>
@@ -156,7 +118,8 @@ self.location = "./mobile/index.html";
 				<br/>
 			</div>
 		</div>
-		<div style="background-color:#FFFFFF;float:left;width:34%;margin-left:1%;opacity: 0.7"bgcolor="#FFFFFF">
+		<br/>
+		<div style="background-color:#FFFFFF;position:relative;left:5%;width:90%;opacity: 0.7"bgcolor="#FFFFFF">
 			<br/>
 			<div style="text-align:center">
 				<b>恋</b>
@@ -195,7 +158,8 @@ self.location = "./mobile/index.html";
 			</div>
 			</div>
 		</div>
-		<div style="background-color:#FFFFFF;float:right;height:100%;width:31%;;margin-right: 1%;opacity: 0.7">
+		<br/>
+		<div style="background-color:#FFFFFF;position:relative;left:5%;width:90%;opacity: 0.7">
 			<br/>
 			<div style="text-align:center">
 				<b>长文</b>
@@ -239,7 +203,7 @@ self.location = "./mobile/index.html";
 			<footer>
 			<!-- 插入一个页脚框架 -->
 				<p>copyright (c) ENTs Software 2012-2022</p>
-				<p>友谊网站:<span><a class="a2" href="https://entssoftware.github.io">entssoftware官网</span></p>
+				<p>友谊网站:<span><a style="font-size: 1.5em"class="a2" href="https://entssoftware.github.io">entssoftware官网</span></p>
 			</footer>
 			<!-- 结束插入框架 -->
 		</div>
